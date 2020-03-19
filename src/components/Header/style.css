@@ -1,0 +1,22 @@
+.header {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    padding: 10px ;
+    border: 1px solid;
+}
+
+
+.headerMenu a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #333;
+    padding: 0 10px;
+
+}
+
+.headerMenu a:hover{
+    color: gray;
+}
+
