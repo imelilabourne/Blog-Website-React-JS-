@@ -9,11 +9,11 @@ import { TiSocialFacebookCircular, TiSocialTwitterCircular, TiSocialGithubCircul
 const Card = (props) => {
   return(
     <div className="card">
-    <span className="icon"><TiSocialTwitterCircular size={42}/></span>
-    <span className="icon"><TiSocialGithubCircular size={42}/></span>
+    <span className="icon"><TiSocialTwitterCircular size={28}/></span>
+    <span className="icon"><TiSocialGithubCircular size={28}/></span>
     {props.children}
-    <span className="icon"><TiSocialFacebookCircular size={42}/></span>
-    <span className="icon"><TiSocialLinkedinCircular size={42}/></span>
+    <span className="icon"><TiSocialFacebookCircular size={28}/></span>
+    <span className="icon"><TiSocialLinkedinCircular size={28}/></span>
     </div>
    )
  }
