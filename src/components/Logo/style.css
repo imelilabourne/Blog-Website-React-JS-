@@ -1,4 +1,9 @@
 .logo{
+    background-color: #dde6d5;
+    padding: 50px 20%;
+    font-family: 'Amatic SC', cursive;
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-around;
+    font-size: xx-large;
 }

@@ -1,15 +1,4 @@
 .card{
-    /* background-color: #c3E2DD; */
-    padding: 50px 20%;
-    text-align: center;
-    font-family: 'Liu Jian Mao Cao', cursive;
-    font-size: xx-large;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-}
-
-.icon{
-    
-    /* justify-content: baseline; */
+    background-color: #dde6d5;
+    width: 100%;
 }

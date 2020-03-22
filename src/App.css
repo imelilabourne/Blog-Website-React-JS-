@@ -1,11 +1,19 @@
 body{
-    background-color: white;
+    /* background-color: white; */
+    background-color: #a3b899;
     font-family: 'Open Sans Condensed', sans-serif;
     padding: 10px 0 ;
 }
 
 
 .App{
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
 }
+
+.container{
+    display: flex;
+    margin: 20px 0;
+    justify-content: space-between;
+}
+

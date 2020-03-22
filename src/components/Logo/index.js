@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from '../UI/Card'
+import './style.css'
 /**
 * @author
 * @function Logo
@@ -7,7 +8,7 @@ import Card from '../UI/Card'
 
 const Logo = (props) => {
   return(
-    <div className='logo'><Card>Eli Labourne Enterprise</Card></div>
+    <div className="logo">Eli Labourne Enterprise</div>
    )
 
  }

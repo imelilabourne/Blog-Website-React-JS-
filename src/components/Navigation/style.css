@@ -8,6 +8,7 @@
 .search form{
     display: flex;
     margin: 0 10px;
+    background-color: #dde6d5;
 }
 
 .bg{
@@ -21,10 +22,13 @@
     border: 0;
     width: 0;
     transition: width 0.5s ease-in;
+    background-color: #dde6d5;
+
 }
 
 .searchinput.active{
     width: 150px;
+    background-color: #dde6d5;
 }
 
 .searchinput:focus{
