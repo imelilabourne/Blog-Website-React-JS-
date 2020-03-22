@@ -7,8 +7,8 @@ import Header from './components/Header';
 import Logo from './components/Logo';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import About from './containers/About';
-import BlogPost from './components/Blog Post';
-import Sidebar from './components/sidebar';
+import Post from './components/Post';
+
 
 function App() {
   return (
@@ -19,10 +19,8 @@ function App() {
       <Route path="/" exact component={Home} />
       <Route path="/contact" component={ContactUs} />
       <Route path="/about" component={About}/>
-      <section className="container">
-        <BlogPost/>
-        <Sidebar/>
-      </section>
+      <Route path="/post/:postId" component={Post}/>
+      
     </div>
     </Router>
   );
